@@ -50,8 +50,8 @@ function App() {
         </div>
         <div className="container-full max-sm:p-1 bg-slate-100 p-4" id="">
             <div className="p-8 border-2">
-                <h3 className="font-bold font-mono text-lg underline">Summary Statement</h3>
-                <p className="text-basic font-sm text-slate-600">
+                
+                <p className="font-sans font-sm text-slate-600">
                     software engineer with Bachelor's degree in computer science and 2+ years experience at top MNC Tata Consultancy Services.
                     Increased code delivery speed by 7% and code accuracy by 12%, while regularly contributing to open source projects. Seeking to leverage proven leadership and expertise to become the next software engineer at a BigTech Company.
                 </p><br/>
@@ -94,7 +94,7 @@ function App() {
             </div>
         </div>
         <div className="container-full h-full bg-pink-100 p-4" id="projects">
-            <h3 className="max-lg:text-center ml-4 font-sans text-2xl text-gray-500">PROJECTS</h3>
+            
             <div className="border-2 flex flex-wrap">
                 <div className="shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
                     <img alt="x" src={feed} className="w-20 h-20 float-right m-3"/>
@@ -138,9 +138,8 @@ function App() {
             </div>
         </div>
         <div className="container-full h-full bg-slate-100 border-1" id="technologies">
-            <h3 className="max-lg:text-center ml-4 font-sans text-2xl text-gray-500">Skills and Technologies.</h3>
             <div className="shadow-sm w-full h-full flex flex-wrap">
-                <div className="max-lg:w-1/2 border p-4 max-sm:w-full max-md:w-full w-1/3 max-sm:m-5 max-md:m-3">
+                <div className="max-lg:w-1/2 border p-4 max-sm:w-full max-md:w-full w-1/3 max-sm:m-4 max-md:m-3">
                     <h5 className="text-2xl underline font-serif w-full max-sm:text-center">Programming</h5>
                     <div className="m-3 p-1">
                         <p className="font-mono">Javascript</p>
@@ -179,7 +178,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div className="max-lg:w-1/2 border-2 p-4 border p-4 max-sm:w-full max-md:w-full w-1/3 max-sm:m-5 max-md:m-3">
+                <div className="max-lg:w-1/2 border-2 p-4 border p-4 max-sm:w-full max-md:w-full w-1/3 max-sm:m-4 max-md:m-3">
                     <h5 className="text-2xl underline font-serif w-full max-sm:text-center">Frameworks</h5>
                     <div className="m-3 p-1">
                         <p className="font-mono">ReactJS</p>
@@ -212,7 +211,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div className="max-lg:ml-56 max-lg:w-1/2 border p-4 max-sm:w-full w-1/3 max-md:w-full max-sm:m-5 max-md:m-3">
+                <div className="max-lg:ml-56 max-lg:w-1/2 border p-4 max-sm:w-full w-1/3 max-md:w-full max-sm:m-4 max-md:m-3">
                     <h5 className="text-2xl underline font-serif w-full max-sm:text-center">Tools</h5>
                     <div className="m-1 p-1">
                         <p className="font-mono">Postman</p>
@@ -254,7 +253,6 @@ function App() {
             </div>
         </div>
         <div className="p-2 relative container-full h-96 flex bg-gray-200 justify-center shadow-xl" id="contactme">
-            <h3 className="max-lg:text-center ml-4 font-sans text-2xl text-gray-500">Contact Me</h3>
             <form className="top-5
                         pt-4
                         pl-2
