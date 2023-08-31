@@ -47,7 +47,7 @@ function App() {
             </div>
         </div>
         </div>
-        <div className="container-full bg-slate-100 p-4" id="">
+        <div className="container-full max-sm:p-1 bg-slate-100 p-4" id="">
             <div className="p-8 border-2">
                 <h3 className="font-bold font-mono text-lg underline">Summary Statement</h3>
                 <p className="text-basic font-sm text-slate-600">
@@ -67,7 +67,7 @@ function App() {
                 </p>
             </div>
         </div>
-        <div className="container-full h-96 bg-indigo-100 p-4" id="education">
+        <div className="container-full bg-indigo-100 p-4" id="education">
             <div className="p-8 border-2 border-slate-400"> 
                 <h3 className="font-bold font-mono text-lg underline">
                 Bachelor of Technology (B.TECH.)
@@ -88,14 +88,14 @@ function App() {
               </p>
               <p className="pl-3 pt-2 text-sm font-bold">
                 ● Percentage
-                <small className="italic">75% .</small>
+                <small className="italic"> - 75% .</small>
               </p>
             </div>
         </div>
         <div className="container-full h-full bg-pink-100 p-4" id="projects">
             <h3 className="max-lg:text-center ml-4 font-sans text-2xl text-gray-500">PROJECTS</h3>
             <div className="border-2 flex flex-wrap">
-                <div className="shadow-sm max-md:w-full max-lg:w-full h-96 max-sm:w-full max-2xl:w-1/2 w-1/2">
+                <div className="shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
                     <img alt="x" src={feed} className="w-20 h-20 float-right m-3"/>
                     <p className="clear-left p-3 m-3 font-mono text-sm">
                         This is a personal project that showcases my skill in MongodbCRUD,aggregations and NodeJS express framework for
@@ -108,7 +108,7 @@ function App() {
                         ● <a href="https://main.dfwasqu2oc736.amplifyapp.com/" target="_blank" className="text-sky-600">Porject Live here"</a>
                     </p>
                 </div>
-                <div className="shadow-sm max-md:w-full max-lg:w-full h-96 max-sm:w-full max-2xl:w-1/2 w-1/2">
+                <div className="shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
                     <img alt="x" src={note} className="w-20 h-20 float-right m-3"/>
                     <p className="clear-left p-3 m-3 font-mono text-sm">
                         This is a personal project that showcases my skill in ReactJs Library and its hooks like useState and useEffect 
@@ -298,13 +298,15 @@ function App() {
                     bg-blue-600 
                     text-slate-100
                     rounded-l
-                    w-1/4
+                    w-20
                     h-8
                     font-mono
                     hover:bg-blue-700
                     focus:ring-2
                     focus:ring-blue-300
-                    ">Contact</button>
+                    "
+                    type="button"
+                    >Contact</button>
                 </div>
             </form>
         </div>
