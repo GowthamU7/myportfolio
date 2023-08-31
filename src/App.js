@@ -4,6 +4,7 @@ var note = require("./feedhome.png")
 var git = require("./git.png")
 var linked = require("./linkded.png")
 var timer = require("./timer.png")
+var clg = require('./vignan.jpg')
 
 function App() {
   return (
@@ -50,7 +51,6 @@ function App() {
         </div>
         <div className="container-full max-sm:p-1 bg-slate-100 p-4" id="">
             <div className="p-8 border-2">
-                
                 <p className="font-sans font-sm text-slate-600">
                     software engineer with Bachelor's degree in computer science and 2+ years experience at top MNC Tata Consultancy Services.
                     Increased code delivery speed by 7% and code accuracy by 12%, while regularly contributing to open source projects. Seeking to leverage proven leadership and expertise to become the next software engineer at a BigTech Company.
@@ -69,6 +69,7 @@ function App() {
             </div>
         </div>
         <div className="container-full bg-indigo-100 p-4" id="education">
+        <img src={clg} className="float-right w-20 h-20 m-3 rounded-full"></img>
             <div className="p-8 border-2 border-slate-400"> 
                 <h3 className="font-bold font-mono text-lg underline">
                 Bachelor of Technology (B.TECH.)
