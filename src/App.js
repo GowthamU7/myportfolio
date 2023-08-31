@@ -3,6 +3,7 @@ var feed = require("./feedpedia.png")
 var note = require("./feedhome.png")
 var git = require("./git.png")
 var linked = require("./linkded.png")
+var timer = require("./timer.png")
 
 function App() {
   return (
@@ -119,6 +120,19 @@ function App() {
                         <br/>● Pagination has been implemented as the grid had been limited to only a six note per page
                         <br/><br/>
                         ● <a target="_blank" className="text-sky-600" href="https://gowthamu7.github.io/notekeeper/">Check my work "</a>
+                    </p>
+                </div>
+                <div className="shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
+                    <img alt="x" src={timer} className="w-20 h-20 float-right m-3"/>
+                    <p className="clear-left p-3 m-3 font-mono text-sm">
+                    This is a personal project that showcases my skill in ReactJs Library and its hooks like useState and useEffect 
+                        for FrontEnd purpose and Tailwind css for responsive styling etc.
+                        <br/>
+                        <br/>● Users can provide input in terms of minutes and seconds in multiple of hundreds etc.
+                        <br/>● Given Input gets converted to appropiate minutes and seconds.
+                        <br/>● Users can interact with the timer using buttons like START, PAUSE, RESET.
+                        <br/><br/>
+                        ● <a href="https://gowthamu7.github.io/Timer/" target="_blank" className="text-sky-600">Porject Live here"</a>
                     </p>
                 </div>
             </div>
