@@ -73,7 +73,7 @@ function App() {
             <div className="p-8 border-2 border-slate-400"> 
                 <h3 className="font-bold font-mono text-lg underline">
                 Bachelor of Technology (B.TECH.)
-                <small className="text-xs">in Computer Science and Engineering</small></h3>
+                <small className="text-xs">in Computer Science and Eng</small></h3>
                 <p className="text-basic font-sm text-slate-600">
                     Vignan Lara Institution Of Technology and Sciences affiliated to JNTUK, Vadlamudi, AP
                     August 2017–May 2021
