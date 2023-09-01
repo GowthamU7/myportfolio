@@ -49,8 +49,8 @@ function App() {
             </div>
         </div>
         </div>
-        <div className="container-full max-sm:p-1 bg-slate-100 p-4" id="">
-            <div className="p-8 border-2">
+        <div className="rounded-lg container-full border-2 border-slate-400 m-3 max-sm:p-1 bg-slate-100 p-4" id="">
+            <div className="p-8">
                 <p className="font-sans font-sm text-slate-600">
                     software engineer with Bachelor's degree in computer science and 2+ years experience at top MNC Tata Consultancy Services.
                     Increased code delivery speed by 7% and code accuracy by 12%, while regularly contributing to open source projects. Seeking to leverage proven leadership and expertise to become the next software engineer at a BigTech Company.
@@ -69,7 +69,7 @@ function App() {
             </div>
         </div>
         <div className="container-full bg-indigo-100 p-4" id="education">
-        <img src={clg} className="float-right w-20 h-20 m-3 rounded-full"></img>
+        <img src={clg} className="float-right w-20 h-20 m-3 rounded-full shadow-lg"></img>
             <div className="p-8 border-2 border-slate-400"> 
                 <h3 className="font-bold font-mono text-lg underline">
                 Bachelor of Technology (B.TECH.)
@@ -96,9 +96,9 @@ function App() {
         </div>
         <div className="container-full h-full bg-pink-100 p-4" id="projects">
             
-            <div className="border-2 flex flex-wrap">
-                <div className="shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
-                    <img alt="x" src={feed} className="w-20 h-20 float-right m-3"/>
+            <div className="flex flex-wrap">
+                <div className="rounded-lg border-pink-300 border-2 m-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
+                    <img alt="x" src={feed} className="shadow-lg w-20 h-20 float-right m-3 rounded-lg"/>
                     <p className="clear-left p-3 m-3 font-mono text-sm">
                         This is a personal project that showcases my skill in MongodbCRUD,aggregations and NodeJS express framework for
                         backend, ReactJs Library for FrontEnd purpose and Tailwind css for responsive styling and jwt for security, etc.
@@ -110,8 +110,8 @@ function App() {
                         ● <a href="https://main.dfwasqu2oc736.amplifyapp.com/" target="_blank" className="text-sky-600">Porject Live here"</a>
                     </p>
                 </div>
-                <div className="shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
-                    <img alt="x" src={note} className="w-20 h-20 float-right m-3"/>
+                <div className="rounded-lg border-pink-300 border-2 m-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
+                    <img alt="x" src={note} className="rounded-lg w-20 h-20 float-right m-3 shadow-lg"/>
                     <p className="clear-left p-3 m-3 font-mono text-sm">
                         This is a personal project that showcases my skill in ReactJs Library and its hooks like useState and useEffect 
                         for FrontEnd purpose and Tailwind css for responsive styling etc.<br/>
@@ -123,8 +123,8 @@ function App() {
                         ● <a target="_blank" className="text-sky-600" href="https://gowthamu7.github.io/notekeeper/">Check my work "</a>
                     </p>
                 </div>
-                <div className="shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
-                    <img alt="x" src={timer} className="w-20 h-20 float-right m-3"/>
+                <div className="rounded-lg border-pink-300 border-2 m-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
+                    <img alt="x" src={timer} className="shadow-lg rounded-full w-20 h-20 float-right m-3"/>
                     <p className="clear-left p-3 m-3 font-mono text-sm">
                     This is a personal project that showcases my skill in ReactJs Library and its hooks like useState and useEffect 
                         for FrontEnd purpose and Tailwind css for responsive styling etc.
@@ -138,9 +138,9 @@ function App() {
                 </div>
             </div>
         </div>
-        <div className="container-full h-full bg-slate-100 border-1" id="technologies">
+        <div className="container-full h-full bg-light-300 border-1" id="technologies">
             <div className="shadow-sm w-full h-full flex flex-wrap">
-                <div className="max-lg:w-1/2 border p-4 max-sm:w-full max-md:w-full w-1/3 max-sm:m-4 max-md:m-3">
+                <div className="rounded-lg border-2 border-slate-400 max-lg:w-1/2 border p-4 max-sm:w-full max-md:w-full w-1/3 max-sm:m-4 max-md:m-3">
                     <h5 className="text-2xl underline font-serif w-full max-sm:text-center">Programming</h5>
                     <div className="m-3 p-1">
                         <p className="font-mono">Javascript</p>
@@ -179,7 +179,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div className="max-lg:w-1/2 border-2 p-4 border p-4 max-sm:w-full max-md:w-full w-1/3 max-sm:m-4 max-md:m-3">
+                <div className="rounded-lg border-2 border-slate-400 max-lg:w-1/2 border-2 p-4 border p-4 max-sm:w-full max-md:w-full w-1/3 max-sm:m-4 max-md:m-3">
                     <h5 className="text-2xl underline font-serif w-full max-sm:text-center">Frameworks</h5>
                     <div className="m-3 p-1">
                         <p className="font-mono">ReactJS</p>
@@ -212,7 +212,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div className="max-lg:ml-56 max-lg:w-1/2 border p-4 max-sm:w-full w-1/3 max-md:w-full max-sm:m-4 max-md:m-3">
+                <div className="rounded-lg border-2 border-slate-400 max-lg:ml-56 max-lg:w-1/2 border p-3 max-sm:w-full w-1/3 max-md:w-full max-sm:m-4 max-md:m-3">
                     <h5 className="text-2xl underline font-serif w-full max-sm:text-center">Tools</h5>
                     <div className="m-1 p-1">
                         <p className="font-mono">Postman</p>
