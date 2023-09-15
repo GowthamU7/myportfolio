@@ -97,7 +97,7 @@ function App() {
         <div className="container-full h-full bg-pink-100 p-4" id="projects">
             
             <div className="flex flex-wrap">
-                <div className="rounded-lg border-pink-300 border-2 m-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
+                <div className="rounded-lg border-pink-300 border-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/3 max-2xl:h-96  w-1/3">
                     <img alt="x" src={feed} className="shadow-lg w-20 h-20 float-right m-3 rounded-lg"/>
                     <p className="clear-left p-3 m-3 font-mono text-sm">
                         This is a personal project that showcases my skill in MongodbCRUD,aggregations and NodeJS express framework for
@@ -110,7 +110,7 @@ function App() {
                         ● <a href="https://main.dfwasqu2oc736.amplifyapp.com/" target="_blank" className="text-sky-600">Porject Live here"</a>
                     </p>
                 </div>
-                <div className="rounded-lg border-pink-300 border-2 m-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
+                <div className="rounded-lg border-pink-300 border-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:h-96 max-2xl:w-1/3 w-1/3">
                     <img alt="x" src={note} className="rounded-lg w-20 h-20 float-right m-3 shadow-lg"/>
                     <p className="clear-left p-3 m-3 font-mono text-sm">
                         This is a personal project that showcases my skill in ReactJs Library and its hooks like useState and useEffect 
@@ -123,7 +123,7 @@ function App() {
                         ● <a target="_blank" className="text-sky-600" href="https://gowthamu7.github.io/notekeeper/">Check my work "</a>
                     </p>
                 </div>
-                <div className="rounded-lg border-pink-300 border-2 m-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:w-1/2 w-1/2">
+                <div className="rounded-lg border-pink-300 border-2 shadow-sm max-md:w-full max-lg:w-full max-sm:w-full max-2xl:h-96 max-2xl:w-1/3 w-1/3">
                     <img alt="x" src={timer} className="shadow-lg rounded-full w-20 h-20 float-right m-3"/>
                     <p className="clear-left p-3 m-3 font-mono text-sm">
                     This is a personal project that showcases my skill in ReactJs Library and its hooks like useState and useEffect 
